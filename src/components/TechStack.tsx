@@ -13,14 +13,13 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/Claude_Code.png",
+  "/images/comfyui.png",
+  "/images/lora_finetuning.png",
+  "/images/JS.png",
+  "/images/image.png",
+  "/images/image copy.png"
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -28,6 +27,7 @@ const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
 const spheres = [...Array(30)].map(() => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
+  materialIndex: Math.floor(Math.random() * imageUrls.length),
 }));
 
 type SphereProps = {
@@ -164,7 +164,7 @@ const TechStack = () => {
           clearcoat: 0.1,
         })
     );
-  }, []);
+  }, [textures]);
 
   return (
     <div className="techstack">
@@ -192,8 +192,8 @@ const TechStack = () => {
           {spheres.map((props, i) => (
             <SphereGeo
               key={i}
-              {...props}
-              material={materials[Math.floor(Math.random() * materials.length)]}
+              scale={props.scale}
+              material={materials[props.materialIndex % materials.length]}
               isActive={isActive}
             />
           ))}

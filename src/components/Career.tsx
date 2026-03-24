@@ -15,43 +15,31 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>AI Automation Intern</h4>
+                <h5>Edverb.in, Surat</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Engineered end-to-end automated growth systems by orchestrating
+              n8n workflows for high-volume cold outreach and lead pipelines.
+              Integrated Apify for web scraping with AI-personalized email
+              automation and multi-stage follow-ups tracked in Google Sheets.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>AI Agent Builder (Contract)</h4>
+                <h5>Kryzen Software Pvt Ltd</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Designed and deployed a custom RAG-based Knowledge Retrieval
+              system to eliminate internal information silos. Built a specialized
+              web interface powered by Pinecone vector DB for instant,
+              context-aware technical answers from internal documentation.
             </p>
           </div>
         </div>
