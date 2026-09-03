@@ -5,11 +5,14 @@
   place-items: center;
   position: relative;
   opacity: 1;
-  height: 100vh;
+  min-height: 100vh;
   width: var(--cWidth);
   max-width: 1920px;
   margin: auto;
   z-index: 9;
+  flex-wrap: wrap;
+  gap: 40px 0;
+  padding: 80px 0;
 }
 .what-box {
   width: 50%;
@@ -316,6 +319,8 @@
 @media only screen and (max-width: 900px) {
   .whatIDO {
     flex-direction: column;
+    gap: 30px;
+    padding: 50px 0;
   }
   .what-box h2 {
     margin: 50px 0;
@@ -325,7 +330,8 @@
   .what-box:first-child {
     justify-content: left;
   }
-  .what-box:last-child {
+  .what-box:nth-child(2),
+  .what-box:nth-child(3) {
     height: 500px;
   }
   .what-box {

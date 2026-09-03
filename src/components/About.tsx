@@ -6,13 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Computer Engineering student and AI Automation Builder. Skilled in
-          architecting n8n workflow orchestrations, building autonomous agents,
-          and integrating RAG-style knowledge systems. Experienced in vibe
-          coding modern web applications using Claude Code and Lovable, alongside
-          exploring Diffusion models (Flux LoRA) and custom ComfyUI pipelines.
-          Passionate about GenAI and Agentic AI to turn complex ideas into
-          practical, real-world applications.
+          AI Generalist shipping production AI automations, internal tools,
+          voice agents, and creative-AI workflows for Malpani Group. Strong in
+          n8n, LLM/API orchestration, human-in-the-loop content systems, and
+          practical AI training for non-technical teams. Best fit: converting
+          messy business processes into reliable AI workflows, dashboards, and
+          creative pipelines that teams actually use.
         </p>
       </div>
     </div>
