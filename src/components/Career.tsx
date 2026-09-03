@@ -15,6 +15,22 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>AI Generalist</h4>
+                <h5>Malpani Group</h5>
+              </div>
+              <h3>2026 - Present</h3>
+            </div>
+            <p>
+              Build and deploy AI systems across Dhruv Global School, The
+              Schools of India, Dhruv Preschool, CTRL, EduMojo, and WHAM
+              Energy. Shipped voice agents, internal learning platforms,
+              content workflows, creative-AI pipelines, and AI training
+              workshops for non-technical teams.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>AI Automation Intern</h4>
                 <h5>Edverb.in, Surat</h5>
               </div>
